@@ -104,7 +104,7 @@ Listing, melihat isi dari directory tertentu
 ```bash
 ls <path directory>
 ```
-Jika path directory tidak diisi maka akan menampilkan isi directory sekarang
+Jika path directory tidak diisi maka akan menampilkan isi directory sekarang<br>
 5. cd<br>
 Change Directory, merubah directory yang dikunjungi
 ```bash
@@ -173,12 +173,12 @@ Kedua text editor memiliki kelebihan masing-masing, yaitu nano lebih mudah digun
 ### File Permission
 #### Permission User
 Tiap user pada linux memiliki permission yang berbeda-beda. Salah satu cara mengetahui permission yang dimiliki oleh user adalah dengan command `ls -l`. Tiap user memiliki 3 jenis permission yaitu r atau read untuk melihat isi file, w atau write untuk merubah isi file, dan x atau execute untuk menjalankan isi file. Jika karakter diganti dengan `-` maka user tidak memiliki permission melakukan aksi tersebut.
-![image](https://user-images.githubusercontent.com/85059763/194747589-5e1d6cfa-688c-4b12-80cc-4d2bc704b281.png)
+![image](https://user-images.githubusercontent.com/85059763/194747589-5e1d6cfa-688c-4b12-80cc-4d2bc704b281.png)<br>
 Permission terletak pada bagian kiri dengan format 10 karakter ABBBCCCDDD.<br>
-A: Berisi karakter `d` jika file merupakan directory atau `-` jika file bukan merupakan directory
-B: Berisi permission dari owner file dengan format `rwx`
-C: Berisi permission dari group (user yang diberikan akses file) dengan format `rwx`
-D: Berisi permission dari other (user lain) dengan format `rwx`
+A: Berisi karakter `d` jika file merupakan directory atau `-` jika file bukan merupakan directory<br>
+B: Berisi permission dari owner file dengan format `rwx`<br>
+C: Berisi permission dari group (user yang diberikan akses file) dengan format `rwx`<br>
+D: Berisi permission dari other (user lain) dengan format `rwx`<br>
 
 #### chmod
 Permission suatu file dapat diubah dengan command `chmod`
