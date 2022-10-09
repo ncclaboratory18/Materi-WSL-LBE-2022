@@ -20,7 +20,8 @@ Sistem operasi dibagi menjadi tiga komponen penting, yaitu Kernel, Shell, dan Pr
 ![image](https://user-images.githubusercontent.com/85059763/194484014-625405f3-027a-4ef8-bf6b-49c1158d3cc5.png)
 Kernel adalah inti dari komputer. Komponen ini memungkinkan terjadinya komunikasi antara software dan hardware. Jika kernel adalah bagian terdalam dari sebuah sistem operasi, maka shell adalah bagian terluarnya.
 
-Shell adalah program penerjemah perintah yang menjembatani user dengan kernel. Umumnya, shell menyediakan prompt sebagai user interface tempat user menginputkan perintah-perintah yang diinginkan, baik berupa perintah internal maupun eksternal. Setelah menerima input dari user dan menjalankan program/perintah berdasarkan input tersebut, shell akan mengeluarkan output. Shell dapat diakses melalui Terminal.
+Shell adalah program penerjemah perintah yang menjembatani user dengan kernel. Umumnya, shell menyediakan prompt sebagai user interface tempat user menginputkan perintah-perintah yang diinginkan, baik berupa perintah internal maupun eksternal. Setelah menerima input dari user dan menjalankan program/perintah berdasarkan input tersebut, shell akan mengeluarkan output. Shell dapat diakses melalui Terminal.<br>
+
 Program Utility adalah system software yang menjalankan tugas-tugas maintenance. Program utility ini dibuat secara khusus untuk melakukan fungsi tertentu pada suatu area komputasi secara spesifik, seperti memformat harddisk, atau melakukan pengecekan konektivitas jaringan dll.
 
 ### Linux
@@ -29,6 +30,7 @@ Kelebihan	:
 - Sebagian besar dapat digunakan secara gratis karena tidak memerlukan lisensi
 - Dapat menggunakan root yaitu superuser yang memiliki akses lebih terhadap komputer
 - Tidak memerlukan antivirus karena sistem root dan sifatnya yang open-source
+
 Kekurangan	:
 - Lebih jarang digunakan sehingga aplikasi yang tersedia lebih sedikit
 
